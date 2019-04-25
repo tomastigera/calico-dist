@@ -1,5 +1,13 @@
 #!/bin/sh
 
 if [ $3 -eq 1 ] ; then
-    git submodule foreach -q 'branch="$(git config -f ../.gitmodules submodule.$name.branch)"; git checkout $branch'
+    if [ $1 != $2 ] ; then
+        git submodule foreach -q 'branch="$(git config -f ../.gitmodules submodule.$name.branch)"; git checkout $branch'
+    else
+        NAME=$(git rev-parse --abbrev-ref HEAD)
+        MODS=$(git config --file .gitmodules --name-only --get-regexp path | cut -d. -f 2 | grep -v "^calico$")
+        for M in $MODS ; do git config -f .gitmodules submodule.$M.branch $NAME ; done
+        git commit -am "new branch $NAME"
+        git submodule update --remote
+    fi
 fi
