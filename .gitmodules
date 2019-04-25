@@ -1,15 +1,25 @@
 [submodule "calico"]
 	path = calico
 	url = git@github.com:projectcalico/calico.git
+	branch = master
+	ignore = dirty
 [submodule "libcalico-go"]
 	path = libcalico-go
 	url = git@github.com:projectcalico/libcalico-go.git
+	branch = master
+	ignore = dirty
 [submodule "node"]
 	path = node
 	url = git@github.com:projectcalico/node.git
+	branch = master
+	ignore = dirty
 [submodule "felix"]
 	path = felix
 	url = git@github.com:projectcalico/felix.git
+	branch = master
+	ignore = dirty
 [submodule "confd"]
 	path = confd
 	url = git@github.com:projectcalico/confd.git
+	branch = master
+	ignore = dirty
