@@ -1,0 +1,15 @@
+[submodule "calico"]
+	path = calico
+	url = git@github.com:projectcalico/calico.git
+[submodule "libcalico-go"]
+	path = libcalico-go
+	url = git@github.com:projectcalico/libcalico-go.git
+[submodule "node"]
+	path = node
+	url = git@github.com:projectcalico/node.git
+[submodule "felix"]
+	path = felix
+	url = git@github.com:projectcalico/felix.git
+[submodule "confd"]
+	path = confd
+	url = git@github.com:projectcalico/confd.git
