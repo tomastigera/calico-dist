@@ -1,0 +1,2 @@
+#!/bin/sh
+git submodule foreach -q 'branch="$(git config -f ../.gitmodules submodule.$name.branch)"; git checkout $branch'
