@@ -6,50 +6,50 @@
 [submodule "libcalico-go"]
 	path = libcalico-go
 	url = git@github.com:projectcalico/libcalico-go.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "node"]
 	path = node
 	url = git@github.com:projectcalico/node.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "felix"]
 	path = felix
 	url = git@github.com:projectcalico/felix.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "confd"]
 	path = confd
 	url = git@github.com:projectcalico/confd.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "typha"]
 	path = typha
 	url = git@github.com:projectcalico/typha.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "calicoctl"]
 	path = calicoctl
 	url = git@github.com:projectcalico/calicoctl.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "cni-plugin"]
 	path = cni-plugin
 	url = git@github.com:projectcalico/cni-plugin.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "kube-controllers"]
 	path = kube-controllers
 	url = git@github.com:projectcalico/kube-controllers.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "app-policy"]
 	path = app-policy
 	url = git@github.com:projectcalico/app-policy.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
 [submodule "pod2daemon"]
 	path = pod2daemon
 	url = git@github.com:projectcalico/pod2daemon.git
-	branch = master
+	branch = release-v3.7
 	ignore = dirty
