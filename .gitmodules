@@ -5,12 +5,12 @@
 	ignore = dirty
 [submodule "libcalico-go"]
 	path = libcalico-go
-	url = git@github.com:projectcalico/libcalico-go.git
+	url = git@github.com:tomastigera/project-calico-libcalico-go.git
 	branch = master
 	ignore = dirty
 [submodule "node"]
 	path = node
-	url = git@github.com:projectcalico/node.git
+	url = git@github.com:tomastigera/project-calico-node.git
 	branch = master
 	ignore = dirty
 [submodule "felix"]
@@ -30,7 +30,7 @@
 	ignore = dirty
 [submodule "calicoctl"]
 	path = calicoctl
-	url = git@github.com:projectcalico/calicoctl.git
+	url = git@github.com:tomastigera/project-calico-calicoctl.git
 	branch = master
 	ignore = dirty
 [submodule "cni-plugin"]
