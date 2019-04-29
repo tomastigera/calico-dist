@@ -23,3 +23,33 @@
 	url = git@github.com:projectcalico/confd.git
 	branch = master
 	ignore = dirty
+[submodule "typha"]
+	path = typha
+	url = git@github.com:projectcalico/typha.git
+	branch = master
+	ignore = dirty
+[submodule "calicoctl"]
+	path = calicoctl
+	url = git@github.com:projectcalico/calicoctl.git
+	branch = master
+	ignore = dirty
+[submodule "cni-plugin"]
+	path = cni-plugin
+	url = git@github.com:projectcalico/cni-plugin.git
+	branch = master
+	ignore = dirty
+[submodule "kube-controllers"]
+	path = kube-controllers
+	url = git@github.com:projectcalico/kube-controllers.git
+	branch = master
+	ignore = dirty
+[submodule "app-policy"]
+	path = app-policy
+	url = git@github.com:projectcalico/app-policy.git
+	branch = master
+	ignore = dirty
+[submodule "pod2daemon"]
+	path = pod2daemon
+	url = git@github.com:projectcalico/pod2daemon.git
+	branch = master
+	ignore = dirty
