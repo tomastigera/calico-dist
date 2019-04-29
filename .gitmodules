@@ -8,11 +8,6 @@
 	url = git@github.com:projectcalico/libcalico-go.git
 	branch = master
 	ignore = dirty
-[submodule "node"]
-	path = node
-	url = git@github.com:projectcalico/node.git
-	branch = master
-	ignore = dirty
 [submodule "felix"]
 	path = felix
 	url = git@github.com:projectcalico/felix.git
@@ -53,3 +48,7 @@
 	url = git@github.com:projectcalico/pod2daemon.git
 	branch = master
 	ignore = dirty
+[submodule "node"]
+	path = node
+	url = git@github.com:tomastigera/project-calico-node.git
+	branch = my-test-fix-branch
